@@ -31,4 +31,5 @@ jobs:
             resume.md
             out/resume.pdf
             out/resume.html
+            resume.css
           generate_release_notes: true
