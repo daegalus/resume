@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Yulian Kuncheff</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../resume.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Yulian Kuncheff</h1>
+</header>
+<h6 id="sammamish-wa-.-408-228-7822-.-yuliankuncheff.com">[ Sammamish,
+WA ] . [ 408 228 7822 ] . [ yulian@kuncheff.com ]</h6>
+<h6
+id="linkedin.cominyuliankuncheff-.-yulian.kuncheff.com-.-github.comdaegalus">[
+<a
+href="https://linkedin.com/in/yuliankuncheff">linkedin.com/in/yuliankuncheff</a>
+] . [ <a href="https://yulian.kuncheff.com">yulian.kuncheff.com</a> ] .
+[ <a href="http://github.com/daegalus">github.com/daegalus</a> ]</h6>
+<h2 id="skills">Skills</h2>
+<div class="columns onlytextwidth" data-align="top">
+<div class="column" data-align="center" style="width:33%;">
+<ul>
+<li>Languages
+<ul>
+<li>Go, Rust, Dart</li>
+<li>Ruby, Python, Crystal</li>
+<li>Elixir, Typescript, Javascript</li>
+<li>Past or experimental experience in many others</li>
+</ul></li>
+<li>Tools
+<ul>
+<li>Terraform, Vault, Consul</li>
+<li>Kubernetes, Docker</li>
+<li>GKE/EKS/AKS</li>
+<li>Helm/Helmsman</li>
+<li>Ansible</li>
+<li>Nix</li>
+</ul></li>
+</ul>
+</div><div class="column" data-align="center" style="width:33%;">
+<ul>
+<li>Frontend
+<ul>
+<li>React, Svelte, HTMX</li>
+<li>Typescript, Javascript</li>
+</ul></li>
+<li>Obervability
+<ul>
+<li>Prometheus, OpenTelemetry</li>
+<li>Grafana, Cortex, Mimir</li>
+</ul></li>
+<li>Other
+<ul>
+<li>Backend &amp; Tool Development</li>
+<li>Game Server Development</li>
+<li>LLM/AI/ML Experimentation</li>
+</ul></li>
+</ul>
+</div><div class="column" data-align="center" style="width:33%;">
+<ul>
+<li>CI/CD
+<ul>
+<li>Github Actions</li>
+<li>ArgoCD</li>
+<li>Dagger</li>
+<li>Jenkins</li>
+<li>Gitlab CI</li>
+</ul></li>
+<li>Clouds
+<ul>
+<li>GCP</li>
+<li>Azure</li>
+<li>AWS</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<h2 id="experience">Experience</h2>
+<p><strong>Staff DevOps Engineer, Unity Technologies</strong>
+<em>(Sept. 2017 - Current, Bellevue WA)</em></p>
+<ul>
+<li>Lead and Implement effort to create new multi-cloud resource
+management tooling and web app. Primarily for standardizing creation of
+GCP Projects, Azure Subscriptions, and AWS Accounts in a manner that
+follows company and industry best practices and standards. Uses a custom
+state machine to manage complex creation, update, and deletion of
+resources in the cloud. Once created, the tool allowed teams to
+self-service team access, approvals for resource management, and
+optional automatic integration with additional tools, services, or
+platforms like logging, metrics, monitoring, network access, and
+external tools.</li>
+<li>Frontend for resource management tooling built into Backstage with
+React and other modern web tooling.</li>
+<li>Implement shared workflows and actions for teams to use with Github
+Actions</li>
+<li>Lead team to deploy, productionize, and maintain ArgoCD for
+Continuous Delivery solution.</li>
+<li>Design and build a workflow engine to automate monitoring, metrics,
+and ingress across 100s of GKE Kubernetes clusters while having
+everything consolidated into a single pane of glass for those that need
+the information using Grafana, Prometheus, Thanos, Cortex,
+OpenTelemetry, Envoy, and Vault in concert.</li>
+<li>Lead the effort to create a new Internal Development Platform,
+focusing initially on a workflow engine to offer our internal users a
+central and automated way to do many standardized tasks throughout our
+platform, including metrics, logging, CI/CD, GCP project management,
+Azure subscription management, AWS Account management and more.</li>
+<li>Lead and managed the migration of Vault and Consul infrastructure
+from single node in AWS to multi-node HA clusters in GCP with full
+automation through Terraform, Packer, and Salt masterless.</li>
+<li>Designed and implemented automation strategy to least privileged and
+audited self-service of Vault Approles and credentials for teams.</li>
+<li>Lead team and help implement a Jenkins Shared Library to simplify
+the ease of using CI/CD for onboarding teams.</li>
+<li>Designed architecture and led a team for the implementation and
+adoption of Cloudbees Jenkins with full automation through Terraform,
+Helm, and custom tooling in Python and Go while running on
+Kubernetes.</li>
+<li>Started a shared library effort for Jenkins declarative pipeline
+steps to create an easier migration path for teams from Gitlab CI and
+define a standard method of doing various CI/CD tasks.</li>
+<li>Helped with the migration of Vault clusters from VMs to GKE for a
+full kubernetes migration.</li>
+<li>Was part of much larger efforts to migrate entire infrastructure
+from AWS to GCP and ongoing effort to migrate from Gitlab to
+Github.</li>
+<li>Involved in new tooling built around Prometheus operator and Vault
+to allow secure self service for distributed metrics, while still having
+a single location to view metrics and graphs through Grafana.
+Authenticated through mTLS.</li>
+<li>Tool development for the team and users of our platform to simplify
+using the platform. Written in Go and Rust.</li>
+<li>Work with stakeholders across the company to redesign and implement
+a new internal workflow system to do common tasks around our
+infrastructure, tools, and processes.</li>
+</ul>
+<p><strong>Senior DevOps Engineer, Sony Interactive
+Entertainment</strong> <em>(Jun. 2015 - Sept. 2017, San Francisco
+CA)</em></p>
+<ul>
+<li>Worked with Lead Architect on redesigning infrastructure during
+expansion to additional regions in AWS.</li>
+<li>Helped build tooling on top of Terraform to convert our
+infrastructure into codified templates and towards an Infrastructure as
+code mentality.</li>
+<li>Built out deployment system using GoCD, Packer, and Terraform to
+build AMIs and deploy them onto provisioned infrastructure using
+Terraform.</li>
+<li>Build Okta PAM module in Go to do Okta authorization during SSH
+authentication.</li>
+</ul>
+<p><strong>Senior DevOps &amp; Backend Engineer, Clinkle</strong>
+<em>(Apr. 2013 - May 2015, San Francisco CA)</em></p>
+<ul>
+<li>Working primarily on adding features, improving, and building the
+backend platform of the product.</li>
+<li>Primary developer on an in-place migration of a Jetty/Java
+application to initial Spray.io/Akka/Scala implementation.</li>
+<li>Helped grow the DevOps team with migration to Chef, cleaning up
+automations, and improving automated testing and release. Implemented
+Zabbix monitoring of our platform and 1-click deploy for all staging and
+production tiers.</li>
+<li>Reorganized and redesigned Chef installation and rewrote
+considerable amounts of roles and cookbooks.</li>
+<li>Lead complete infrastructure redesign with outside consultant.
+Moving entire infrastructure to AWS Oregon from North California and
+improving buildout and automated horizontal growth.</li>
+<li>Spurred interest and switchover to IntelliJ IDEA as IDE of choice
+for the team from Eclipse.</li>
+<li>Architected and prototyped new build systems, infrastructure, and
+backend core. Also helped with design of new notification and
+asynchronous communication between frontend and backend.</li>
+</ul>
+<p><strong>Electronic Arts</strong> <em>(Redwood Shores CA)</em></p>
+<p>  <strong>Software Engineer II</strong> <em>(Jul. 2012 -
+Apr. 2013)</em></p>
+<ul>
+<li>Helped peers with learning new technologies and security approaches,
+helped design TOTP implementation following RFC and to be compatible
+with Google Authenticator. Researched, designed, and implemented
+Hazelcast distributed data structures into many of our products that use
+In-Memory stores and helped integrate with Amazon Game Connect.</li>
+<li>Using Grails and Groovy to write front-end facing orchestrated APIs
+and pages to facilitate easier and more correct flows for integrators
+and using SSO and OAuth for api restrictions.</li>
+<li>Designing avatar upload system and flow to utilize HTML5 Canvas, and
+the JS File API to allow for lower processing and bandwidth load on
+servers.</li>
+<li>Worked on the EA Digital Platform that handles all Users, Commerce,
+and Entitlement transactions for all EA online services including
+Origin, games, websites, portals, and in-game currencies.</li>
+<li>Worked with internal and external integrators to provide them the
+services and apis needed to allow them to use our system to its fullest
+from their games and web services.</li>
+</ul>
+<p>    <strong>Software Engineer Intern</strong> <em>(May 2011 -
+Aug. 2011)</em></p>
+<ul>
+<li>Worked on the Nucleus Platform and implemented a Brute Force attack
+monitoring, detection, and lockout system for the User login and
+registration implementations that reduced load on the servers
+immediately.</li>
+</ul>
+<p>    <strong>Quality Assurance</strong> <em>(Jun. 2007 –
+Aug. 2007)</em></p>
+<ul>
+<li>Play tested Rockband to catch bugs, user experience problems, and
+missing functionality.</li>
+</ul>
+</body>
+</html>

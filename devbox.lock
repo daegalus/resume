@@ -1,0 +1,50 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "pandoc@latest": {
+      "last_modified": "2024-02-10T18:15:24Z",
+      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#pandoc",
+      "source": "devbox-search",
+      "version": "3.1.11",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/fvs0v4h9qxw9nd464w39d67y5ipj3vw4-pandoc-cli-3.1.11"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/rkim610iibp4xhyzwxr5mri389zqm70x-pandoc-cli-3.1.11"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/p3ram94k7dyjm21mm5czdpay8j0q7k5p-pandoc-cli-3.1.11"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/vzq6cd7jsisbcsx0xz39vwf8nk2wz0nv-pandoc-cli-3.1.11"
+        }
+      }
+    },
+    "python311Packages.weasyprint": {
+      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#python311Packages.weasyprint",
+      "source": "nixpkg"
+    },
+    "python@3.11": {
+      "last_modified": "2024-02-10T18:15:24Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/10b813040df67c4039086db0f6eaf65c536886c6#python3",
+      "source": "devbox-search",
+      "version": "3.11.7",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/flkpbg20pfzfa9f2lwzrzjl718i2ccw7-python3-3.11.7"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/xg7f3xg4l3w4apmialnid8lm61jdrf57-python3-3.11.7"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/pwr22740f2pv36q5g28l1gjdg1bw43zm-python3-3.11.7"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/y027d3bvlaizbri04c1bzh28hqd6lj01-python3-3.11.7"
+        }
+      }
+    }
+  }
+}

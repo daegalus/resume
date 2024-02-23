@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "python@3.11",
+    "python311Packages.weasyprint",
+    "pandoc@latest"
+  ],
+  "shell": {
+    "scripts": {
+      "build": [
+        "pandoc -s -f markdown -c ../resume.css resume.md -o out/resume.html",
+        "weasyprint out/resume.html out/resume.pdf"
+      ]
+    }
+  }
+}
