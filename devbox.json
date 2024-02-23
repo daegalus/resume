@@ -8,7 +8,7 @@
     "scripts": {
       "build": [
         "mkdir -p out",
-        "pandoc -s -f markdown -c ../resume.css resume.md -o out/resume.html",
+        "pandoc -f markdown resume.md -o out/resume.html --css resume.css --standalone --embed-resources",
         "weasyprint out/resume.html out/resume.pdf"
       ]
     }
