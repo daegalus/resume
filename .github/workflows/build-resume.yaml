@@ -1,6 +1,9 @@
 name: Build Resume
 
-on: push
+on:
+  push:
+    tags:
+      - "*.*.*"
 
 permissions:
   contents: write
@@ -23,9 +26,9 @@ jobs:
 
       - name: Release
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
+            resume.md
             out/resume.pdf
-            out/resume.pdf
+            out/resume.html
           generate_release_notes: true
