@@ -2,7 +2,7 @@
 title: "Yulian Kuncheff"
 ---
 
-###### [ Sammamish, WA ] . [ 408 228 7822 ] . [ yulian@kuncheff.com ]
+###### [ Copenhagen, DK ] . [ EU: +45 91 88 83 48 / US: 408 228 7822 ] . [ yulian@kuncheff.com ]
 
 ###### [ [linkedin.com/in/yuliankuncheff](https://linkedin.com/in/yuliankuncheff) ] . [ [yulian.kuncheff.com](https://yulian.kuncheff.com) ] . [ [github.com/daegalus](http://github.com/daegalus) ]
 
@@ -57,7 +57,7 @@ title: "Yulian Kuncheff"
 
 ## Experience
 
-**Staff DevOps Engineer, Unity Technologies** _(Sept. 2017 - Current, Bellevue WA)_
+**Staff DevOps Engineer, Unity Technologies** _(Sept. 2017 - Current, San Francisco CA -> Bellevue WA -> Copenhagen DK)_
 
 * Lead and Implement effort to create new multi-cloud resource management tooling and web app. Primarily for standardizing creation of GCP Projects, Azure Subscriptions, and AWS Accounts in a manner that follows company and industry best practices and standards. Uses a custom state machine to manage complex creation, update, and deletion of resources in the cloud. Once created, the tool allowed teams to self-service team access, approvals for resource management, and optional automatic integration with additional tools, services, or platforms like logging, metrics, monitoring, network access, and external tools.
 * Frontend for resource management tooling built into Backstage with React and other modern web tooling.
